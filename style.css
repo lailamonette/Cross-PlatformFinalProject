@@ -1,1 +1,33 @@
+.NavigationBar{
+    display: grid;
+    grid-template-columns: repeat(6, 0.5fr);
+    text-align: center;
+    background-color: #2B2B2B;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.whatWeDo{
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.whatWeDo .goTo-in-industry{
+    font-size: 80px;
+    margin-top: 10px;
+}
+.explanation{
+    margin-top: 0px;
+}
+.explanation p {
+    max-width: 20em;
+}
+
+.explanationImg{
+    margin-right: 300px;
+    float: right;
+    height: 600px;
+    width: 600px;
+}
 
