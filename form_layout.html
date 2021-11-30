@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" />
+    <script src="events.js" defer></script>
+    <meta name="author" content="jacob issenman" />
+    <meta name="email" content="isse0013@algonquincollege.com" />
+    <link rel="stylesheet" href="style.css">
+    <title>form template</title>
+</head>
+<body>
+
+    <nav>
+        <div class="NavigationBar">
+            <a class="logo" alt='Logo'>
+                <img src="images/Logo.PNG">
+            </a>
+            <a>Meet The Team</a>
+            <a>Layouts</a>
+            <a>Why Choose Us, Previous Customers</a>
+            <a>Pricing</a>
+            <a>FAQ</a>
+        </div>
+    </nav>
+    <h3>Profile Form</h3>
+    <form class="form_center"name="profile" id="profile">
+
+          <label for="fName">First Name</label><br>
+          <input type="text" id="firstName" name="firstName"><br>
+          <span class="alert" id="fnameError"></span><br><br>
+          
+          
+          <label for="lName">Last Name</label><br>
+          <input type="text" id="lastName" name="lastName"><br>
+          <span class="alert" id="lNameError"></span><br><br>
+        
+        
+          <label for="address1">Address 1</label><br>
+          <input type="text" id="address1" name="address1"><br>
+          <span class="alert" id="address1Error"></span><br><br>
+        
+        
+          <label for="address2">Address 2</label><br>
+          <input type="text" id="address2" name="address2"><br>
+          <span class="alert" id="address2Error"></span><br><br>
+        
+        
+          <label for="city">City</label><br>
+          <input type="text" id="city" name="city"><br>
+          <span class="alert" id="cityError"></span><br><br>
+        
+        
+          <label for="province">Province</label>   <br>       
+          <select id="province" name="province">
+            <option value="">Select Province</option>
+            <option value="AB">Alberta</option>
+            <option value="BC">British Columbia</option>
+            <option value="MB">Manitoba</option>
+            <option value="NB">New Brunswick</option>
+            <option value="NL">Newfoundland and Labrador</option>
+            <option value="NS">Nova Scotia</option>
+            <option value="ON">Ontario</option>
+            <option value="PE">Prince Edward Island</option>
+            <option value="QC">Quebec</option>
+            <option value="SK">Saskatchewan</option>
+            <option value="NT">Northwest Territories</option>
+            <option value="NU">Nunavut</option>
+            <option value="YT">Yukon</option>
+          </select><br>
+          <span class="alert" id="provinceError"></span><br><br>
+ 
+ 
+          <label for="country">Country</label><br>
+          <select id="country" name="country">
+            <option value="">Select Country</option>
+            <option value="CA">Canada</option>
+            <option value="US">United States</option>
+            <option value="OTH">Other</option>
+          </select>  <br>        
+          <span class="alert" id="countryError"></span><br><br>
+     
+     
+          <input type="submit" value="Submit">
+          <input type="reset">
+          
+    </form>  
+  </body>
+  <script src="form_val.js"> </script>
+</html>
