@@ -59,6 +59,10 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+.Build-your-online-presence{
+    text-align: right;
+}
+
 .wrapper3{
     margin-top: 20px;
     display: grid;
