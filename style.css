@@ -1,3 +1,4 @@
+/* Landing Page CSS Start*/
 .NavigationBar{
     display: grid;
     grid-template-columns: repeat(6, 0.5fr);
@@ -67,6 +68,7 @@
     padding: 30px 30px 30px 30px;
 }
 
+/* Landing Page CSS End*/
 
 .alert{
     color:red;
