@@ -76,6 +76,11 @@
     width: 650px;
 }
 
+.wrapper4{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
 /* Landing Page CSS End*/
 
 .alert{
