@@ -46,9 +46,6 @@
     font-size: 30px;
 }
 
-.createAWebsite-image{
-    align-items: center;
-}
 .wrapper{
     display: grid;
     grid-template-columns: 3fr 1fr;
