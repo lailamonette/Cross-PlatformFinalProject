@@ -64,3 +64,6 @@ document.querySelector('#country').addEventListener("blur", function(){
 // Add an event to the form on submit to validate input
 document.profile.addEventListener("submit", validateProfile);
 
+
+
+

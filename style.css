@@ -1,5 +1,6 @@
 /* Landing Page CSS Start*/
-.NavigationBar{
+
+/* .NavigationBar{
     display: grid;
     grid-template-columns: repeat(6, 0.5fr);
     text-align: center;
@@ -10,7 +11,91 @@
 }
 .navigation{
     padding-top: 30px;
+} */
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /*font can change*/
+    scroll-behavior: smooth; 
 }
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background-color:#2B2B2B;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky; 
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container{
+    display: inline;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto; 
+    padding: 0 100px;
+
+}
+
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_item {
+    height: 80px;
+    
+}
+
+
+.navbar_links{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+    padding-top: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease; /*smooth transition in color instead of instant change*/
+    
+}
+
+.navbar_links:hover{
+    cursor: pointer;
+    color: rgb(11, 182, 240);
+    transition: all 0.3 ease;
+
+
+}
+
+#logo{
+    display:flex;
+    margin:30px;
+}
+
+
+
+
+
+/* What we do section */
+
 .whatWeDo{
     padding-top: 100px;
     font-size: 30px;

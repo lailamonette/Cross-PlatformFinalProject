@@ -8,18 +8,58 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav>
+
+
+<!-- Navigation -->
+
+<nav class="navbar">
+  <a href="#home" id="logo"> <img src="images/LandingPage/Logo.PNG"></a>
+  <div class="navbar_container">
+      <!-- mobile navigation -->
+      <div class="navbar_toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+
+      <ul class="navbar_menu">
+          <li class="navbar_item">
+              <a href="#layouts" class="navbar_links" id="home-page">Layouts</a>
+          </li>
+          <li class="navbar_item">
+              <a href="#whyUs" class="navbar_links" id="about-page">Why Choose Us</a>
+          </li>
+          <li class="navbar_item">
+              <a href="#Pricing" class="navbar_links" id="services-page">Pricing</a>
+          </li>
+          
+      </ul>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+    <!-- <nav>
         <div class="NavigationBar">
             <a class="logo" alt='Logo'>
                 <img src="images/LandingPage/Logo.PNG">
             </a>
-            <a class="navigation">Meet The Team</a>
             <a class="navigation">Layouts</a>
             <a class="navigation">Why Choose Us, Previous Customers</a>
             <a class="navigation">Pricing</a>
-            <a class="navigation">FAQ</a>
+            
         </div>
-    </nav>
+    </nav> -->
+
+
+
+
     <main>
       <section class="whatWeDo">
         <div class="createWebsite">
@@ -48,7 +88,7 @@
                 Create A Website
               </div>
               <div class="howItWorks-text">
-                Select from any of our customizable website tamplates that 
+                Select from any of our customizable website templates that 
                 fit your personal style and professional needs.
               </div>
             </div>
@@ -127,5 +167,6 @@
         
       </footer>
     </main>
+    <script src = "events.js"></script>
   </body>
 </html>
