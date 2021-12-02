@@ -263,3 +263,17 @@ footer div a{
 h3{
     text-align: center;
 }
+
+
+
+
+
+/*---------------------------------------Pricing Page CSS Start---------------------------------------*/
+.pricing-introduction{
+    text-align: center;
+}
+.package-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 30px 20px 30px;
+}
