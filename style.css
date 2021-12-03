@@ -269,11 +269,48 @@ h3{
 
 
 /*---------------------------------------Pricing Page CSS Start---------------------------------------*/
+/*Pricing Introduction Start*/
 .pricing-introduction{
     text-align: center;
+    padding: 10px 10px 10px 10px;
 }
+.introduction-title{
+    font-size: 70px;
+}
+.introduction-description{
+    font-size: 20px;
+}
+.buttonMonthly{
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: #2B2B2B;
+    color: white;
+    border-style: solid;
+    border-color: #2B2B2B;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.buttonYearly{
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: #2B2B2B;
+    color: white;
+    border-style: solid;
+    border-color: #2B2B2B;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+/*Pricing Introduction End*/
 .package-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 200px 0px 200px;
     padding: 20px 30px 20px 30px;
+    grid-gap: 100px;
+}
+.personal-package{
+    border-style:solid;
+    border-color: black;
+    
 }
