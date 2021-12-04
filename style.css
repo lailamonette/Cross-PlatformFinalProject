@@ -269,6 +269,7 @@ h3{
 
 
 /*---------------------------------------Pricing Page CSS Start---------------------------------------*/
+
 /*Pricing Introduction Start*/
 .pricing-introduction{
     text-align: center;
@@ -300,7 +301,6 @@ h3{
     cursor: pointer;
     border-radius: 12px;
 }
-
 /*Pricing Introduction End*/
 .package-grid{
     display: grid;
