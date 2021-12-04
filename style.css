@@ -270,6 +270,13 @@ h3{
 
 /*---------------------------------------Pricing Page CSS Start---------------------------------------*/
 
+#pricing-body{
+    background-color: rgb(11, 182, 240);
+}
+
+.color-logo-grey{
+    color: #2B2B2B;
+}
 /*Pricing Introduction Start*/
 .pricing-introduction{
     text-align: center;
@@ -293,7 +300,7 @@ h3{
 }
 .buttonYearly{
     font-size: 20px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 25px 5px 25px;
     background-color: #2B2B2B;
     color: white;
     border-style: solid;
@@ -302,6 +309,11 @@ h3{
     border-radius: 12px;
 }
 /*Pricing Introduction End*/
+
+/*--- Packages CSS start ---*/
+.packages{
+    background-color: white;
+}
 .package-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -309,8 +321,55 @@ h3{
     padding: 20px 30px 20px 30px;
     grid-gap: 100px;
 }
+.who-for{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2B2B2B;
+}
+.package-explanation, .package-price-details{
+    font-size: 13px;
+}
+.package-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Personal Package Start */
 .personal-package{
     border-style:solid;
-    border-color: black;
-    
+    border-color: #2B2B2B;
+    border-width: 5px;
+    border-radius: 5px;
+    border-top: 10px solid #2B2B2B;
+    color: white;
+}
+.pricing-introduction-container{
+    text-align: center;
+    padding: 5px 5px 20px 5px;
+}
+.pricing-details-container{
+    padding: 0px 5px 5px 5px;
+}
+.turnOn{
+    color: #2B2B2B;
+    font-weight: bold;
+}
+.turnOff{
+    color: lightgrey;
+}
+
+
+.premium-package{
+    border-style:solid;
+    border-color: #2B2B2B;
+    border-width: 5px;
+    border-radius: 5px;
+    border-top: 10px solid #2B2B2B;
+}
+
+.business-onlineStore-package{
+    border-style:solid;
+    border-color: #2B2B2B;
+    border-width: 5px;
+    border-radius: 5px;
+    border-top: 10px solid #2B2B2B;
 }
