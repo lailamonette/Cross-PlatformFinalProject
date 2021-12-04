@@ -340,7 +340,7 @@ h3{
     border-width: 5px;
     border-radius: 5px;
     border-top: 10px solid #2B2B2B;
-    color: white;
+    color: #2B2B2B;
 }
 .pricing-introduction-container{
     text-align: center;
@@ -372,4 +372,19 @@ h3{
     border-width: 5px;
     border-radius: 5px;
     border-top: 10px solid #2B2B2B;
+}
+.buy-now-button{
+    margin: 5px 0px 5px 0px;
+    padding: 5px 70px 5px 70px;
+    background-color: rgb(11, 182, 240);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* when a button clicked, this class is added */
+.button-clicked{
+    background-color: white;
+    color: rgb(11, 182, 240);
+    padding: 10px 50px 10px 50px;
 }
