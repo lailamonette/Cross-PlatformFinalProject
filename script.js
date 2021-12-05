@@ -11,6 +11,7 @@ const businessPriceDetails = document.querySelector('.business-price-details');
 
 const annualBenefits = document.querySelectorAll('.annual-benefits');
 
+// Makes changes to textContent of elements in the website
 monthlyButton.addEventListener('click', function(){
     monthlyButton.classList.add('button-clicked')
     yearlyButton.classList.remove('button-clicked');
@@ -28,6 +29,7 @@ monthlyButton.addEventListener('click', function(){
     businessPriceDetails.textContent = 'Payed Monthly, Billed Monthly';
     
 });
+// Makes changes to textContent of elements in the website
 yearlyButton.addEventListener('click', function(){
     monthlyButton.classList.remove('button-clicked')
     yearlyButton.classList.add('button-clicked');
