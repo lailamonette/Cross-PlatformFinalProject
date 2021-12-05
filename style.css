@@ -271,16 +271,16 @@ h3{
 /*---------------------------------------Pricing Page CSS Start---------------------------------------*/
 
 #pricing-body{
-    background-color: rgb(11, 182, 240);
+    background-color: white;
 }
 
 .color-logo-grey{
     color: #2B2B2B;
 }
 /*Pricing Introduction Start*/
-.pricing-introduction{
+.pricing-section{
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 35px 10px 10px 10px;
 }
 .introduction-title{
     font-size: 70px;
@@ -314,6 +314,9 @@ h3{
 .packages{
     background-color: white;
 }
+.package-section{
+    margin-bottom: 50px;
+}
 .package-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -335,12 +338,13 @@ h3{
 }
 /* Personal Package Start */
 .personal-package{
-    border-style:solid;
+    /* border-style:solid;
     border-color: #2B2B2B;
     border-width: 5px;
     border-radius: 5px;
-    border-top: 10px solid #2B2B2B;
-    color: #2B2B2B;
+    border-top: 10px solid #2B2B2B; */
+    /* color: #2B2B2B; */
+    box-shadow: 0 5px 35px rgb(0 0 0 / 50%);
 }
 .pricing-introduction-container{
     text-align: center;
@@ -359,19 +363,21 @@ h3{
 
 
 .premium-package{
-    border-style:solid;
+    /* border-style:solid;
     border-color: #2B2B2B;
     border-width: 5px;
     border-radius: 5px;
-    border-top: 10px solid #2B2B2B;
+    border-top: 10px solid #2B2B2B; */
+    box-shadow: 0 5px 35px rgb(0 0 0 / 50%)
 }
 
 .business-onlineStore-package{
-    border-style:solid;
+    /* border-style:solid;
     border-color: #2B2B2B;
     border-width: 5px;
     border-radius: 5px;
-    border-top: 10px solid #2B2B2B;
+    border-top: 10px solid #2B2B2B; */
+    box-shadow: 0 5px 35px rgb(0 0 0 / 50%)
 }
 .buy-now-button{
     margin: 5px 0px 5px 0px;
