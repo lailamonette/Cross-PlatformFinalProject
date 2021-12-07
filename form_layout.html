@@ -9,19 +9,47 @@
 </head>
 <body>
 
-    <nav>
-        <div class="NavigationBar">
-            <a class="logo" alt='Logo'>
-                <img src="images/Logo.PNG">
-            </a>
-            <a>Meet The Team</a>
-            <a>Layouts</a>
-            <a>Why Choose Us, Previous Customers</a>
-            <a>Pricing</a>
-            <a>FAQ</a>
+  <nav class="navbar">
+    <a href="#home" id="logo"> <img src="images/LandingPage/Logo.PNG"></a>
+    <div class="navbar_container">
+        <!-- mobile navigation -->
+        <div class="navbar_toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-    </nav>
+
+        <ul class="navbar_menu">
+            <li class="navbar_item">
+                <a href="layouts.html" class="navbar_links" id="home-page">Layouts</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#whyUs" class="navbar_links" id="about-page">Why Choose Us</a>
+            </li>
+            <li class="navbar_item">
+                <a href="#Pricing" class="navbar_links" id="services-page">Pricing</a>
+            </li>
+            
+        </ul>
+    </div>
+  </nav>
+  <br><br>
     <h3>Profile Form</h3>
+    <br>
+    <div class ="btnDivCenter">
+    <button type="button"  class="btnForm" id = "left"
+    onclick="document.getElementById('profile').style.marginLeft = '50px';">
+    move form to the left</button>
+
+    <button type="button"  class="btnForm" id = "center"
+    onclick="document.getElementById('profile').style.margin = 'auto';">
+    move form to the center</button>
+
+    <button type="button"  class="btnForm" id = "right"
+    onclick="document.getElementById('profile').style.marginRight= '50px';">
+    move form to the right</button>
+  </div>
+    <br><br>
     <form class="form_center"name="profile" id="profile">
 
           <label for="fName">First Name</label><br>
