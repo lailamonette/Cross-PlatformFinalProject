@@ -58,4 +58,4 @@ function validateProfile(e){
     return valid;
     
 
-};
+}
