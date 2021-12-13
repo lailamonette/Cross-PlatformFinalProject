@@ -557,6 +557,7 @@ h3{
 
 .layouts_filter{
     padding: 20px 40px 20px 40px;
+    background-color: lightgray;
 }
 
 .filter_text{
@@ -568,7 +569,7 @@ h3{
     font-size: 30px;
     color: #2B2B2B;
     font-weight: bolder;
-    padding-bottom: 20px;
+    padding:20px 0px 20px 0px;
 }
 .templates_wrapper{
     padding: 0px 40px 0px 40px;
