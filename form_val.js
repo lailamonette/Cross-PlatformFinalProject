@@ -44,7 +44,7 @@ function validateProfile(e){
 
     //display warning if country is not entered
     if(profile.country.value == ""){
-        document.querySelector('#countryError').innerHTML="*Please select a province*";
+        document.querySelector('#countryError').innerHTML="*Please select a country*";
         valid=false;
     }
 
