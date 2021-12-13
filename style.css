@@ -510,3 +510,50 @@ h3{
     color: #2B2B2B;
 }
 /*---------------------------------------Why Choose Us Page CSS End---------------------------------------*/
+
+/*---------------------------------------Layouts Page CSS Start---------------------------------------*/
+.layouts_introduction{
+    padding: 20px 10px 40px 10px;
+    text-align: center;
+    background-color: #2B2B2B;
+}
+.layouts_introduction-header{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 40px;
+}
+.layouts_introduction-text{
+    font-size: 30px;
+    color: white;
+}
+
+.templates{
+    padding: 0px 40px 0px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.btn_favorite{
+    padding: 8px 12px 8px 12px;
+    font-size: 12px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 10px;
+    border: solid;
+}
+.btn_favorite:hover{
+    cursor: pointer;
+}
+.btn_favorite_clicked{
+    padding: 16px 24px 16px 24px;
+    font-size: 24px;
+    background-color: white;
+    color: #0095ff;
+    border-radius: 10px;
+    border: solid;
+}
+
+
+
+
+/*---------------------------------------Layouts Page CSS Start---------------------------------------*/
