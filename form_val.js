@@ -59,3 +59,12 @@ function validateProfile(e){
     
 
 }
+
+
+
+
+//dark mode button
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("darkMode");
+    }
