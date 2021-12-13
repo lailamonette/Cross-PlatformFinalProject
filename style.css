@@ -555,7 +555,7 @@ h3{
     color: white;
 }
 
-.templates{
+.templates_wrapper{
     padding: 0px 40px 0px 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -597,6 +597,12 @@ h3{
   vertical-align: baseline;
   white-space: nowrap;
   margin-left: 20px;
+}
+#buyTemplates:hover{
+    cursor: pointer;
+}
+.buy_templates_button{
+    text-align: center;
 }
 
 
