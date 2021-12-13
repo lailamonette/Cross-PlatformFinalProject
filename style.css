@@ -581,6 +581,24 @@ h3{
     border: solid;
 }
 
+#buyTemplates{
+
+  background-color:orange;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  
+  padding: 8px .8em;
+ 
+  vertical-align: baseline;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
 
 
 
